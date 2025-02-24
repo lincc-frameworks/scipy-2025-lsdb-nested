@@ -32,8 +32,25 @@ The exponential growth of large survey catalogs has introduced new challenges fo
 >> pip install lsdb
 ```
 
-## Notebooks
-Todo
+## Hands-On Notebooks
+
+### Notebook 1: [Basic LSDB Queries](https://github.com/lincc-frameworks/scipy-2025-lsdb-nested/blob/main/docs/notebooks/basic_lsdb_queries.ipynb)
+
+This notebook steps through the basics of the LSDB interface. We query large catalogs for a small chunk of data, and perform some basic filtering and cross-matching between multiple surveys. 
+
+
+### Notebook 2: [Large Scale LSDB Analysis](https://github.com/lincc-frameworks/scipy-2025-lsdb-nested/blob/main/docs/notebooks/large_scale_lsdb.ipynb)
+
+In this notebook, we ramp up the scale to analyze a considerably larger section of the sky. We show how to utilize Dask in large scale analysis, showing the available tooling and providing some tips & tricks for optimizing computationally intensive workflows.
+
+### Notebook 3: [Nested-Pandas Introduction](https://github.com/lincc-frameworks/scipy-2025-lsdb-nested/blob/main/docs/notebooks/nested_intro.ipynb)
+
+This notebook explores the Nested-Pandas API, showing the basics of nesting data and touring the various ways of working with nested data.
+
+### Notebook 4: [Time-Domain Analysis](https://github.com/lincc-frameworks/scipy-2025-lsdb-nested/blob/main/docs/notebooks/time_domain.ipynb)
+
+This notebook showcases the usage of LSDB and Nested to do large scale time-domain analysis. We build a dataset from multiple input surveys, and select a subset of interesting objects from large sections of the sky. We compute periodograms (or any other function of interest to the user!) on our objects of interest and conclude with working with their spectra.
+
 
 ## LINCC Tech Talks
 
