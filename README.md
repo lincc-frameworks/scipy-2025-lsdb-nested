@@ -3,9 +3,11 @@
 
 [![Template](https://img.shields.io/badge/Template-LINCC%20Frameworks%20Python%20Project%20Template-brightgreen)](https://lincc-ppt.readthedocs.io/en/latest/)
 
-<img src="./tutorial_logo.png" width="500" />
+<p align="center">
+   <img src="./tutorial_logo.png" width="600" />
+</p>
 
-<img src="./lincc-logo.png" width="250" />
+[comment]: <img src="./lincc-logo.png" width="250" />
 
 
 This repository contains all materials for the LSDB tutorial[TODO: LINK] prepared for the [Scipy 2025 Conference](https://www.scipy2025.scipy.org/) in Tacoma, WA.
