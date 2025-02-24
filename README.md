@@ -1,48 +1,50 @@
 
-# scipy_2025_lsdb_nested
+# Scipy 2025 Tutorial: Large Astronomical Survey Analysis with LSDB & Nested
 
 [![Template](https://img.shields.io/badge/Template-LINCC%20Frameworks%20Python%20Project%20Template-brightgreen)](https://lincc-ppt.readthedocs.io/en/latest/)
 
-[![PyPI](https://img.shields.io/pypi/v/scipy_2025_lsdb_nested?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/scipy_2025_lsdb_nested/)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/lincc-frameworks/scipy_2025_lsdb_nested/smoke-test.yml)](https://github.com/lincc-frameworks/scipy_2025_lsdb_nested/actions/workflows/smoke-test.yml)
-[![Codecov](https://codecov.io/gh/lincc-frameworks/scipy_2025_lsdb_nested/branch/main/graph/badge.svg)](https://codecov.io/gh/lincc-frameworks/scipy_2025_lsdb_nested)
-[![Read The Docs](https://img.shields.io/readthedocs/scipy-2025-lsdb-nested)](https://scipy-2025-lsdb-nested.readthedocs.io/)
 
-This project was automatically generated using the LINCC-Frameworks 
-[python-project-template](https://github.com/lincc-frameworks/python-project-template).
+![LINCC Logo](./lincc-logo.png)
 
-A repository badge was added to show that this project uses the python-project-template, however it's up to
-you whether or not you'd like to display it!
+This repository contains all materials for the LSDB tutorial[TODO: LINK] prepared for the [Scipy 2025 Conference](https://www.scipy2025.scipy.org/) in Tacoma, WA.
 
-For more information about the project template see the 
-[documentation](https://lincc-ppt.readthedocs.io/en/latest/).
+### Main references
 
-## Dev Guide - Getting Started
+* Slide Decks [Links to Come]
+* LSDB ([on GitHub](https://github.com/astronomy-commons/lsdb)) 
+  ([on ReadTheDocs](https://lsdb.readthedocs.io/en/stable/))
+* HATS ([on GitHub](https://github.com/astronomy-commons/hats))
+  ([on ReadTheDocs](https://hats.readthedocs.io/en/stable/))
+* nested-dask ([on GitHub](https://github.com/lincc-frameworks/nested-dask)) 
+  ([on ReadTheDocs](https://nested-dask.readthedocs.io/en/stable/))
+* nested-pandas ([on GitHub](https://github.com/lincc-frameworks/nested-pandas)) 
+  ([on ReadTheDocs](https://nested-pandas.readthedocs.io/en/stable/))
 
-Before installing any dependencies or writing code, it's a great idea to create a
-virtual environment. LINCC-Frameworks engineers primarily use `conda` to manage virtual
-environments. If you have conda installed locally, you can run the following to
-create and activate a new environment.
 
-```
->> conda create -n <env_name> python=3.11
->> conda activate <env_name>
-```
+## Abstract
+The exponential growth of large survey catalogs has introduced new challenges for astronomical datasets. Our session showcases the LSDB framework, an analysis framework built upon hierarchically sharded spatial partitioned data with Parquet for efficient cross-matching and analysis. We’ll showcase nested-pandas/nested-dask for time-domain and spectral data, and highlight real-world applications across wide-sky datasets, with the nod toward the upcoming Rubin Survey.
 
-Once you have created a new environment, you can install this project for local
-development using the following commands:
+## Installation
 
 ```
->> ./.setup_dev.sh
->> conda install pandoc
+>> conda create --name lincc python=3.12
+>> conda activate lincc
+>> pip install lsdb
 ```
 
-Notes:
-1. `./.setup_dev.sh` will initialize pre-commit for this local repository, so
-   that a set of tests will be run prior to completing a local commit. For more
-   information, see the Python Project Template documentation on 
-   [pre-commit](https://lincc-ppt.readthedocs.io/en/latest/practices/precommit.html)
-2. Install `pandoc` allows you to verify that automatic rendering of Jupyter notebooks
-   into documentation for ReadTheDocs works as expected. For more information, see
-   the Python Project Template documentation on
-   [Sphinx and Python Notebooks](https://lincc-ppt.readthedocs.io/en/latest/practices/sphinx.html#python-notebooks)
+## Notebooks
+Todo
+
+## LINCC Tech Talks
+
+Watch the following [LINCC Tech Talk](https://www.youtube.com/watch?v=yoGhI72Vl40) to learn more about LSDB. Other relevant talks can be found in the [LSST Discovery Alliance website](https://lsstdiscoveryalliance.org/programs/tech-talks/).
+
+## Acknowledgements
+
+This project is supported by Schmidt Sciences.
+
+This project is based upon work supported by the National Science Foundation under Grant No. AST-2003196.
+
+This project acknowledges support from the DIRAC Institute in the Department of Astronomy at the University of Washington. The DIRAC Institute is supported through generous gifts from the Charles and Lisa Simonyi Fund for Arts and Sciences, and the Washington Research Foundation.
+
+
