@@ -17,8 +17,8 @@ classifiers = [
 dynamic = ["version"]
 requires-python = ">=3.10"
 dependencies = [
-    "nested-pandas"
-    "lsdb"
+    "nested-pandas",
+    "lsdb",
     "numpy",
     "pandas",
 ]
